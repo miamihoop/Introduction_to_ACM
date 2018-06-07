@@ -1,3 +1,5 @@
+//
+
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
@@ -17,3 +19,19 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", tot);
     return 0;
 }
+
+/*
+Input:
+OOXXOXXOOO
+OOXXOOXXOO
+OXOXOXOXOXOXOX
+OOOOOOOOOO
+OOOOXOOOOXOOOOX
+
+Output:
+10 
+9 
+7 
+55 
+30
+*/
