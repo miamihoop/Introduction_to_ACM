@@ -14,7 +14,6 @@ int ch2num(char s) {
     return s - '0';
 }
 
-
 int main(int argc, const char * argv[]) {
     int T;
     scanf("%d", &T);
