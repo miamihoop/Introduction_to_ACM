@@ -1,3 +1,6 @@
+/*
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -75,9 +78,14 @@ int main(int argc, const char * argv[]) {
 }
 
 /*
-refer: https://blog.csdn.net/shanchuan2012/article/details/58318201
+This question seems easy, but requires careful consideration. The code deals with digit and double-digit case by case. 
 
-input:C6H5OH
+Results: 
+C6H5OH
+94.108
 
-output: 94.108
+C15H30
+210.390
+
+Refer: https://blog.csdn.net/shanchuan2012/article/details/58318201
 */
